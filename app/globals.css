@@ -1,0 +1,124 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Brand Colors */
+  --brand-navy: #1c3575;
+  --brand-green: #07914e;
+  --brand-steel: #b0bec5;
+
+  /* Semantic tokens */
+  --background: #f8f9fb;
+  --foreground: #0f1a2e;
+  --card: #ffffff;
+  --card-foreground: #0f1a2e;
+  --popover: #ffffff;
+  --popover-foreground: #0f1a2e;
+
+  --primary: #1c3575;
+  --primary-foreground: #ffffff;
+  --secondary: #07914e;
+  --secondary-foreground: #ffffff;
+  --tertiary: #b0bec5;
+  --tertiary-foreground: #0f1a2e;
+
+  --muted: #eef0f5;
+  --muted-foreground: #5a6a8a;
+  --accent: #e8f5ee;
+  --accent-foreground: #07914e;
+  --destructive: #d32f2f;
+  --destructive-foreground: #ffffff;
+  --border: #dde1ea;
+  --input: #dde1ea;
+  --ring: #1c3575;
+  --radius: 0.5rem;
+
+  --navy-light: #2a4a9e;
+  --navy-dark: #0f1f4a;
+  --green-light: #09b562;
+  --green-dark: #056035;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #0f1a2e;
+  --sidebar-primary: #1c3575;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #eef0f5;
+  --sidebar-accent-foreground: #1c3575;
+  --sidebar-border: #dde1ea;
+  --sidebar-ring: #1c3575;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 2px);
+  --radius-md: var(--radius);
+  --radius-lg: calc(var(--radius) + 4px);
+  --radius-xl: calc(var(--radius) + 8px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans), system-ui, sans-serif;
+    line-height: 1.6;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif), Georgia, serif;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer utilities {
+  .text-brand-navy { color: var(--brand-navy); }
+  .text-brand-green { color: var(--brand-green); }
+  .text-brand-steel { color: var(--brand-steel); }
+  .bg-brand-navy { background-color: var(--brand-navy); }
+  .bg-brand-green { background-color: var(--brand-green); }
+  .bg-brand-steel { background-color: var(--brand-steel); }
+  .bg-navy-dark { background-color: var(--navy-dark); }
+  .bg-navy-light { background-color: var(--navy-light); }
+
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16;
+  }
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
