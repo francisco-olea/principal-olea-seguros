@@ -9,7 +9,7 @@ const agents = [
       'Con más de 35 años de trayectoria en el sector asegurador, el Lic. Francisco Olea es el pilar de la oficina. Su profundo conocimiento del mercado y sus relaciones con las principales aseguradoras garantizan las mejores coberturas para cada cliente.',
     expertise: ['Seguros Empresariales', 'Fianzas', 'Propiedad Industrial'],
     years: '35+',
-    image: undefined,
+    image: '/images/agents/francisco-olea-sr.jpg',
   },
   {
     name: 'Lic. Melissa Olea',
