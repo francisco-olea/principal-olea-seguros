@@ -84,7 +84,10 @@ export default function Footer() {
                 <MapPin className="w-4 h-4 text-secondary mt-0.5 shrink-0" />
                 <span className="text-sm text-white/70">
                   Av. Álvaro Obregón 2208, 83448<br />
-                  San Luis RC, Sonora, México
+                  San Luis RC, Sonora, México<br />
+                  <br />
+                  Av Reforma 1161, Centro, Nueva,<br />
+                  21100 Mexicali, B.C., México
                 </span>
               </li>
               <li>

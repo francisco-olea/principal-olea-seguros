@@ -45,7 +45,7 @@ export default function NosotrosPage() {
               Tres generaciones protegiendo lo que más te importa
             </h1>
             <p className="text-[#b0bec5] text-lg leading-relaxed">
-              Olea Seguros y Fianzas nació de la vocación de servicio del Lic. Efraín Olea, quien fundó la oficina con la firme convicción de que cada cliente merece una asesoría honesta, personalizada y de la más alta calidad.
+              Olea Seguros y Fianzas nació de la vocación de servicio del Sr. Efraín Olea Barreras, quien fundó la oficina con la firme convicción de que cada cliente merece una asesoría honesta, personalizada y de la más alta calidad.
             </p>
           </div>
         </div>
