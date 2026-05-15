@@ -90,7 +90,14 @@ export default function ContactoPage() {
                   <MapPin className="w-5 h-5 text-secondary mt-0.5 shrink-0" />
                   <div>
                     <p className="text-sm font-semibold text-foreground">Dirección</p>
-                    <p className="text-sm text-muted-foreground">Av. Álvaro Obregón 2208, 83448<br />San Luis RC, Sonora, México</p>
+                    <p className="text-sm text-muted-foreground">
+                      Av. Álvaro Obregón 2208, 83448<br />
+                      San Luis RC, Sonora, México
+                    </p>
+                    <p className="text-sm text-muted-foreground mt-2">
+                      Av Reforma 1161, Centro, Nueva,<br />
+                      21100 Mexicali, B.C., México
+                    </p>
                   </div>
                 </li>
                 <li className="flex items-start gap-3">

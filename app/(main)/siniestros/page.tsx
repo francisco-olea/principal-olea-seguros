@@ -72,10 +72,8 @@ const mexicoContacts = [
 ]
 
 const usaContacts = [
-  { aseguradora: 'Border Insurance', phone: '+1 619 428 0095', tel: '+16194280095' },
   { aseguradora: 'National Unity', phone: '+1 866 329 6734', tel: '+18663296734' },
   { aseguradora: 'NH Seguros', phone: '+1 844 386 3118', tel: '+18443863118' },
-  { aseguradora: 'Quic Insurace', phone: '+1 619 430 2648', tel: '+16194302648' },
 ]
 
 export default function SiniestrosPage() {
