@@ -18,7 +18,7 @@ const agents = [
       'Especializada en seguros de gastos médicos y de vida, la Lic. Melissa Olea combina calidez humana con un profundo conocimiento técnico para brindar la mejor protección a familias y ejecutivos.',
     expertise: ['Gastos Médicos Mayores', 'Seguro de Vida', 'Planes de Retiro'],
     years: '7+',
-    image: undefined,
+    image: '/images/agents/melissa-olea.jpg',
   },
   {
     name: 'Ing. Francisco Olea',
