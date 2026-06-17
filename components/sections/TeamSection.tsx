@@ -69,10 +69,7 @@ export default function TeamSection() {
                     Imagen temporalmente no disponible
                   </div>
                 )}
-                {/* Experience badge */}
-                <div className="absolute top-4 right-4 bg-secondary text-white text-xs font-sans font-bold px-3 py-1.5 rounded-full shadow">
-                  {agent.years} años
-                </div>
+                {/* Badge de años eliminado */}
               </div>
 
               {/* Content */}
